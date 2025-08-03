@@ -9,3 +9,4 @@ def load_stock_data(ticker, period="2y", interval="1d", data_dir="data"):
 if __name__ == "__main__":
     df = load_stock_data("AAPL")
     print(df.head())
+    

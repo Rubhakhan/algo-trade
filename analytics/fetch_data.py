@@ -14,5 +14,7 @@ def fetch_and_save(ticker, period="2y", interval="1d", save_dir="data"):
 
 if __name__ == "__main__":
     # Example: Download Apple and Microsoft data for last 2 years, daily
+    fetch_and_save("TSLA")
+    fetch_and_save("NVDA")
     fetch_and_save("AAPL")
-    fetch_and_save("MSFT")
+    
